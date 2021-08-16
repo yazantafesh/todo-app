@@ -26,9 +26,9 @@
 
 ## Links
 
-  Sandbox Deployment Link: https://codesandbox.io/s/agitated-taussig-2xj2w
+  Sandbox Deployment Link: https://codesandbox.io/s/wonderful-fermat-h2rs5
 
-  Pull Request: https://github.com/yazantafesh/todo-app/pull/1
+  Pull Request: https://github.com/yazantafesh/todo-app/pull/4
 
 ## UML
 
