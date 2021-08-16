@@ -31,7 +31,7 @@ function TodoList(props) {
       })
       setList(temp);
     }
-  },[settingsContext.view])
+  },[listContext.list])
   function nextPage(){
     settingsContext.nextpage();
     setpage(page+1);
@@ -74,7 +74,7 @@ function TodoList(props) {
     </ul>
     {page>0&&<button onClick={prePage}>Previous</button>}
     {!(page==(Math.ceil(listContext.list.length/settingsContext.numberOfItems)-1))&&<button onClick={nextPage}>Next</button>}
-    <button onClick={()=>{settingsContext.setSettings(null,!settingsContext.view)}}>Toggle View Completed Items</button>
+    {/* <button onClick={()=>{settingsContext.setSettings(null,!settingsContext.view)}}>view</button> */}
     </>
   );
 }

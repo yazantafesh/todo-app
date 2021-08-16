@@ -12,6 +12,7 @@ function TodoForm (props) {
     e.preventDefault();
     e.target.reset();
     listContext.addItem(state.item)
+    // props.handleSubmit(state.item);
     const item = {};
     setState({item});
   };
