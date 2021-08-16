@@ -11,8 +11,12 @@ function ToDo(props) {
   const [state, setState] = useState([])
 
   useEffect(()=>{
-    let localSettings = JSON.parse(localStorage.getItem('settings'));
-    settingContext.setSettings(localSettings.items,localSettings.view);
+
+    let localSettings = localStorage.getItem('settings') === true;
+    if(localSettings){
+      localSettings = JSON.parse(localStorage.getItem('settings'))
+      settingContext.setSettings(localSettings.items,localSettings.view);
+    }
   },[])
   
   return (
