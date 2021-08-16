@@ -8,13 +8,10 @@ function SettingsContext(props) {
     const [start,setStart] = useState(0);
     const [end,setEnd] = useState(numberOfItems-1);
 
-
     function setSettings(numb,val){
-        if(numb){
             setNumberOfItems(numb)
-        }
-            setView(val);
-        
+
+            setView(val); 
     }
    function nextpage(){
        setStart(start+numberOfItems);
