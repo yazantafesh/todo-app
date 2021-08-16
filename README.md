@@ -26,9 +26,9 @@
 
 ## Links
 
-  Sandbox Deployment Link: 
+  Sandbox Deployment Link: https://codesandbox.io/s/agitated-taussig-2xj2w
 
-  Pull Request: 
+  Pull Request: https://github.com/yazantafesh/todo-app/pull/1
 
 ## UML
 
